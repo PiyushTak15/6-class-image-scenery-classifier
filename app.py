@@ -9,7 +9,7 @@ from PIL import Image, ImageOps
 from tensorflow.keras.models import load_model
 
 # ---------- settings ----------
-MODEL_PATH = Path(__file__).parent / "scene_cnn_model.keras"
+MODEL_PATH = Path(__file__).parent / "scene_cnn_model_small.keras"
 IMAGE_SIZE = (150, 150)
 CLASS_NAMES = ["buildings", "forest", "glacier", "mountain", "sea", "street"]
 
