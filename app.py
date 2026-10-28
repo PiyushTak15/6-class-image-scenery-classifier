@@ -18,7 +18,7 @@ st.set_page_config(page_title="Scene Classifier", page_icon="🏞️")
 
 @st.cache_resource(show_spinner="Loading the model...")
 def load_scene_model():
-    return load_model(MODEL_PATH)
+    return load_model(MODEL_PATH,compile = False)
 
 
 model = load_scene_model()
