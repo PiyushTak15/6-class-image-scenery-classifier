@@ -32,8 +32,8 @@ I only had about 2,000 training photos and a fairly small network, so I'm happy 
 ## What's in this repository
 
 - `app.py` is the Streamlit app
-- `scene_cnn_model.keras` is the trained model
-- `<your_notebook>.ipynb` is the full notebook, from splitting the data to evaluating the model
+- `scene_cnn_model_small.keras` is the trained model
+- `Cnn 6 class_classifier.ipynb` is the full notebook, from splitting the data to evaluating the model
 - `requirements.txt` lists the libraries the app needs
 
 ## Running it on your computer
